@@ -732,6 +732,6 @@ body{
 
 .contact__image img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 20px;
+  max-width: 650px;
+  transform: scale(1.2);  /* zoom effect */
 }
