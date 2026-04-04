@@ -724,17 +724,22 @@ body{
   .topbar__actions .btn--sm{ display: none; }
   .project-grid{ grid-template-columns: 1fr; }
 }
+
+
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 30px;
+}
+
 .contact__image {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
-
-
 .contact__image img {
-  width: 100%;
-  max-width: 650px;
-  transform: scale(1.2);  /* zoom effect */
+  height: 450px;
+  transform: scale(1.3);
 }
