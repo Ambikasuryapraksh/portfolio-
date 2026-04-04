@@ -728,7 +728,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
+
+
 
 .contact__image img {
   width: 100%;
