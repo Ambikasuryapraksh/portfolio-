@@ -724,4 +724,14 @@ body{
   .topbar__actions .btn--sm{ display: none; }
   .project-grid{ grid-template-columns: 1fr; }
 }
+.contact__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.contact__image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+}
